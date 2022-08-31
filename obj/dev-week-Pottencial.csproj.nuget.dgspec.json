@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\marcelo.magalhaes\\Documents\\Projetos DOTNET\\Nova pasta\\dev-week-Pottencial\\dev-week-Pottencial.csproj": {}
+    "c:\\Users\\marcelo.magalhaes\\Documents\\Projetos DOTNET\\Nova pasta\\dev-week-Pottencial\\dev-week-Pottencial.csproj": {}
   },
   "projects": {
-    "C:\\Users\\marcelo.magalhaes\\Documents\\Projetos DOTNET\\Nova pasta\\dev-week-Pottencial\\dev-week-Pottencial.csproj": {
+    "c:\\Users\\marcelo.magalhaes\\Documents\\Projetos DOTNET\\Nova pasta\\dev-week-Pottencial\\dev-week-Pottencial.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\marcelo.magalhaes\\Documents\\Projetos DOTNET\\Nova pasta\\dev-week-Pottencial\\dev-week-Pottencial.csproj",
+        "projectUniqueName": "c:\\Users\\marcelo.magalhaes\\Documents\\Projetos DOTNET\\Nova pasta\\dev-week-Pottencial\\dev-week-Pottencial.csproj",
         "projectName": "dev-week-Pottencial",
-        "projectPath": "C:\\Users\\marcelo.magalhaes\\Documents\\Projetos DOTNET\\Nova pasta\\dev-week-Pottencial\\dev-week-Pottencial.csproj",
+        "projectPath": "c:\\Users\\marcelo.magalhaes\\Documents\\Projetos DOTNET\\Nova pasta\\dev-week-Pottencial\\dev-week-Pottencial.csproj",
         "packagesPath": "C:\\Users\\marcelo.magalhaes\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\marcelo.magalhaes\\Documents\\Projetos DOTNET\\Nova pasta\\dev-week-Pottencial\\obj\\",
+        "outputPath": "c:\\Users\\marcelo.magalhaes\\Documents\\Projetos DOTNET\\Nova pasta\\dev-week-Pottencial\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\marcelo.magalhaes\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -38,6 +38,10 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[6.0.8, )"
+            },
             "Swashbuckle.AspNetCore": {
               "target": "Package",
               "version": "[6.2.3, )"

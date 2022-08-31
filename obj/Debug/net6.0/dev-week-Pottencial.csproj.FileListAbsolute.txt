@@ -52,3 +52,6 @@ C:\Users\marcelo.magalhaes\Documents\Projetos DOTNET\Nova pasta\dev-week-Pottenc
 C:\Users\marcelo.magalhaes\Documents\Projetos DOTNET\Nova pasta\dev-week-Pottencial\obj\Debug\net6.0\dev-week-Pottencial.pdb
 C:\Users\marcelo.magalhaes\Documents\Projetos DOTNET\Nova pasta\dev-week-Pottencial\obj\Debug\net6.0\dev-week-Pottencial.genruntimeconfig.cache
 C:\Users\marcelo.magalhaes\Documents\Projetos DOTNET\Nova pasta\dev-week-Pottencial\obj\Debug\net6.0\ref\dev-week-Pottencial.dll
+C:\Users\marcelo.magalhaes\Documents\Projetos DOTNET\Nova pasta\dev-week-Pottencial\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.dll
+C:\Users\marcelo.magalhaes\Documents\Projetos DOTNET\Nova pasta\dev-week-Pottencial\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\marcelo.magalhaes\Documents\Projetos DOTNET\Nova pasta\dev-week-Pottencial\bin\Debug\net6.0\Microsoft.Extensions.Caching.Memory.dll

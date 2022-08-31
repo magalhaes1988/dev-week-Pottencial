@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "jSB7CCgrkbFvao+gd4FnYk2RiIwDDgrC4ujUurVrEDfx3ywqc9+nFBspXcpdL78G8uSl0FfmcxvIJ15FlSOKKA==",
+  "dgSpecHash": "Yc0eATDbMWeHvLxXth5H1dh9w9xUqK3X9xYDFZVBa1EpY4/U50aPmn8Q8b7Hn+wQNUuMDI0FZdJCn4q9Zb9BGA==",
   "success": true,
-  "projectFilePath": "c:\\Users\\marcelo.magalhaes\\Documents\\Projetos DOTNET\\Nova pasta\\dev-week-Pottencial\\dev-week-Pottencial.csproj",
+  "projectFilePath": "C:\\Users\\marcelo.magalhaes\\Documents\\Projetos DOTNET\\Nova pasta\\dev-week-Pottencial\\dev-week-Pottencial.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\marcelo.magalhaes\\.nuget\\packages\\microsoft.entityframeworkcore\\6.0.8\\microsoft.entityframeworkcore.6.0.8.nupkg.sha512",
     "C:\\Users\\marcelo.magalhaes\\.nuget\\packages\\microsoft.entityframeworkcore.abstractions\\6.0.8\\microsoft.entityframeworkcore.abstractions.6.0.8.nupkg.sha512",

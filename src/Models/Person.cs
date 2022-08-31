@@ -7,6 +7,18 @@ namespace dev_week_Pottencial.src.Models
 {
     public class Person
     {
+        public Person()
+        {
+
+        }
+        public Person(string name, int idade, int cpf, bool ativado = true)
+        {
+            this.Name = name;
+            this.Idade = idade;
+            this.Cpf = cpf;
+            this.Ativado = _ativado;
+            this.Contratos = new List<Contracts>();
+        }
         private string _name;
         private int _idade;
 
@@ -15,39 +27,35 @@ namespace dev_week_Pottencial.src.Models
         private bool _ativado;
 
         private List<Contracts> _contratos;
-
-
-
-        public bool Ativado
+        private int _id;
+        public int Id
         {
-            get { return _ativado; }
-            set { _ativado = value; }
+            get { return _id; }
+            set { _id = value; }
         }
-
-        public Person()
+        
+        public string Name {  
+            get { return _name; }
+            set { _name = value; } 
+        }
+        public int Idade
         {
-            this._name = "";
-            this._idade = 0;
-            this.Contratos = new List<Contracts>();
+            get { return _idade; }
+            set { _idade = value; }
         }
-
-
         public int Cpf
         {
             get { return _cpf; }
             set { _cpf = value; }
         }
 
-
-
-        public int Idade
+        public bool Ativado
         {
-            get { return _idade; }
-            set { _idade = value; }
+            get { return _ativado; }
+            set { _ativado = value; }
         }
-
-
-        public string Name { get => _name; set => _name = value; }
+        
+      
         public List<Contracts> Contratos
         {
             get { return _contratos; }

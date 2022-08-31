@@ -25,12 +25,30 @@ namespace dev_week_Pottencial.src.Controllers
         [HttpGet]
         public Person GetPerson(){
  
-            Person pessoa = new Person();
-            Contracts novoContrato = new Contracts("abc123",50.23);
-            pessoa.Name = "Marcelo";
+            Person pessoa = new Person(name: "Marcelo Magalhaes",idade: 33, cpf: 123456789);
+            Contracts novoContrato = new Contracts(tokenId: "0001234", valor: 50.99, pago: true);
+
             pessoa.Contratos.Add(novoContrato);
 
             return pessoa;
+        }
+
+        [HttpPost]
+        public Person PostPerson([FromBody]Person pessoa)
+        {
+            return pessoa;
+        }
+
+        [HttpPut("{id}")]
+        public string Update([FromRoute]int id, [FromBody]Person pessoa)
+        {
+            return "Dados do id " + id + "modificados";
+        }
+
+        [HttpDelete("{id}")]
+        public string Delete([FromRoute]int id)
+        {
+            return "Dados do id " + id + " apagados";
         }
  
     }

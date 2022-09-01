@@ -1,13 +1,12 @@
-using System;
-using System.Collections.Generic;
-using System.Diagnostics;
-using System.Linq;
-using System.Threading.Tasks;
+using System.Net;
+
+using Microsoft.EntityFrameworkCore;
 using Microsoft.AspNetCore.Mvc;
-using Microsoft.Extensions.Logging;
+
 using dev_week_Pottencial.src.Models;
 using dev_week_Pottencial.src.Persistence;
-using Microsoft.EntityFrameworkCore;
+
+
 namespace dev_week_Pottencial.src.Controllers
 {
     //Definição se é o controller da API
@@ -31,43 +30,107 @@ namespace dev_week_Pottencial.src.Controllers
         }
 
         [HttpGet]
-        public List<Person> GetPerson(){
+        public ActionResult<List<Person>> GetPerson(){
 
             // Person pessoa = new Person(name: "Marcelo Magalhaes",idade: 33, cpf: 123456789);
             // Contracts novoContrato = new Contracts(tokenId: "0001234", valor: 50.99, pago: true);
 
             // pessoa.Contratos.Add(novoContrato);
 
-            
+            var result = _context.Pessoas.Include(c=>c.Contratos).ToList();
 
-            return _context.Pessoas.Include(c=>c.Contratos).ToList();
+            if (!result.Any())
+            {
+                return NoContent();
+            } else
+            {
+                return Ok(result);
+            }
+
         }
 
         [HttpPost]
-        public Person PostPerson([FromBody]Person pessoa)
+        public ActionResult<Person> PostPerson([FromBody]Person pessoa)
         {
-            _context.Pessoas.Add(pessoa);
-            _context.SaveChanges();
+            try
+            {
+                _context.Pessoas.Add(pessoa);
+                _context.SaveChanges();
 
-            return pessoa;
+                return Created("Criado", pessoa);
+            }
+            catch(SystemException)
+            {
+                return BadRequest(new
+                {
+                    msg = "Nao Criado",
+                    status = HttpStatusCode.BadRequest
+                });
+            }
         }
 
         [HttpPut("{id}")]
-        public string Update([FromRoute]int id, [FromBody]Person pessoa)
+        public ActionResult<Object> Update([FromRoute]int id, [FromBody]Person pessoa)
         {
-            _context.Pessoas.Update(pessoa);
-            _context.SaveChanges();
-
-            return "Dados do id " + id + "modificados";
+            
+            try{
+                var result = _context.Pessoas.SingleOrDefault(p => p.Id == id);
+                if (result is null)
+                {
+                    return NotFound(new
+                    {
+                        msg = "Error",
+                        status = HttpStatusCode.NotFound
+                    });
+                }
+                _context.Pessoas.Update(pessoa);
+                _context.SaveChanges();
+            }
+            catch (SystemException)
+            {
+                return BadRequest(new
+                {
+                    msg = "Error",
+                    status = HttpStatusCode.BadRequest
+                });
+            }
+            
+            return new
+            {
+                msg = "Dados atualizados",
+                status = HttpStatusCode.OK
+        };
         }
 
+        // [HttpDelete("{id}")]
+        // public string Delete([FromRoute]int id)
+        // {
+        //     var result = _context.Pessoas.SingleOrDefault(p => p.Id == id);
+        //     _context.Pessoas.Remove(result);
+        //     _context.SaveChanges();
+        //     return "Dados do id " + id + " apagados";
+        // }
+
         [HttpDelete("{id}")]
-        public string Delete([FromRoute]int id)
+        public ActionResult<Object> Delete([FromRoute] int id)
         {
             var result = _context.Pessoas.SingleOrDefault(p => p.Id == id);
-            _context.Pessoas.Remove(result);
-            _context.SaveChanges();
-            return "Dados do id " + id + " apagados";
+            if(result is null)
+                return BadRequest(new {
+                    msg = "Conteudo inexistente, solicitação inválida",
+                    status = HttpStatusCode.BadRequest
+                });
+            else{
+                _context.Pessoas.Remove(result);
+                _context.SaveChanges();
+                return Ok(new
+                {
+                    msg = "Pessoa Deletada",
+                    status = HttpStatusCode.OK
+            });
+            }
+                
+
         }
  
     }

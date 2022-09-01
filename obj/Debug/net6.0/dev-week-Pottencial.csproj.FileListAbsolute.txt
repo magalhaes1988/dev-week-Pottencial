@@ -62,3 +62,7 @@ C:\Users\mazzo\OneDrive\Documentos\Marcelo\dotnet_diome\dev-week-Pottencial\bin\
 C:\Users\mazzo\OneDrive\Documentos\Marcelo\dotnet_diome\dev-week-Pottencial\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.InMemory.dll
 C:\Users\mazzo\OneDrive\Documentos\Marcelo\dotnet_diome\dev-week-Pottencial\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Relational.dll
 C:\Users\mazzo\OneDrive\Documentos\Marcelo\dotnet_diome\dev-week-Pottencial\bin\Debug\net6.0\Microsoft.Extensions.Caching.Memory.dll
+C:\Users\marcelo.magalhaes\Documents\Projetos DOTNET\Nova pasta\dev-week-Pottencial\bin\Debug\net6.0\Humanizer.dll
+C:\Users\marcelo.magalhaes\Documents\Projetos DOTNET\Nova pasta\dev-week-Pottencial\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Design.dll
+C:\Users\marcelo.magalhaes\Documents\Projetos DOTNET\Nova pasta\dev-week-Pottencial\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.InMemory.dll
+C:\Users\marcelo.magalhaes\Documents\Projetos DOTNET\Nova pasta\dev-week-Pottencial\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Relational.dll

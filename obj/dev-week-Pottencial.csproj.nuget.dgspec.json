@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\marcelo.magalhaes\\Documents\\Projetos DOTNET\\Nova pasta\\dev-week-Pottencial\\dev-week-Pottencial.csproj": {}
+    "C:\\Users\\mazzo\\OneDrive\\Documentos\\Marcelo\\dotnet_diome\\dev-week-Pottencial\\dev-week-Pottencial.csproj": {}
   },
   "projects": {
-    "C:\\Users\\marcelo.magalhaes\\Documents\\Projetos DOTNET\\Nova pasta\\dev-week-Pottencial\\dev-week-Pottencial.csproj": {
+    "C:\\Users\\mazzo\\OneDrive\\Documentos\\Marcelo\\dotnet_diome\\dev-week-Pottencial\\dev-week-Pottencial.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\marcelo.magalhaes\\Documents\\Projetos DOTNET\\Nova pasta\\dev-week-Pottencial\\dev-week-Pottencial.csproj",
+        "projectUniqueName": "C:\\Users\\mazzo\\OneDrive\\Documentos\\Marcelo\\dotnet_diome\\dev-week-Pottencial\\dev-week-Pottencial.csproj",
         "projectName": "dev-week-Pottencial",
-        "projectPath": "C:\\Users\\marcelo.magalhaes\\Documents\\Projetos DOTNET\\Nova pasta\\dev-week-Pottencial\\dev-week-Pottencial.csproj",
-        "packagesPath": "C:\\Users\\marcelo.magalhaes\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\marcelo.magalhaes\\Documents\\Projetos DOTNET\\Nova pasta\\dev-week-Pottencial\\obj\\",
+        "projectPath": "C:\\Users\\mazzo\\OneDrive\\Documentos\\Marcelo\\dotnet_diome\\dev-week-Pottencial\\dev-week-Pottencial.csproj",
+        "packagesPath": "C:\\Users\\mazzo\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\mazzo\\OneDrive\\Documentos\\Marcelo\\dotnet_diome\\dev-week-Pottencial\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\marcelo.magalhaes\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\mazzo\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net6.0"

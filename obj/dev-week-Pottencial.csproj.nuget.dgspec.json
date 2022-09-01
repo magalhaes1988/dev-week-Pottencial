@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "c:\\Users\\mazzo\\OneDrive\\Documentos\\Marcelo\\dotnet_diome\\dev-week-Pottencial\\dev-week-Pottencial.csproj": {}
+    "C:\\Users\\mazzo\\OneDrive\\Documentos\\Marcelo\\dotnet_diome\\dev-week-Pottencial\\dev-week-Pottencial.csproj": {}
   },
   "projects": {
-    "c:\\Users\\mazzo\\OneDrive\\Documentos\\Marcelo\\dotnet_diome\\dev-week-Pottencial\\dev-week-Pottencial.csproj": {
+    "C:\\Users\\mazzo\\OneDrive\\Documentos\\Marcelo\\dotnet_diome\\dev-week-Pottencial\\dev-week-Pottencial.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "c:\\Users\\mazzo\\OneDrive\\Documentos\\Marcelo\\dotnet_diome\\dev-week-Pottencial\\dev-week-Pottencial.csproj",
+        "projectUniqueName": "C:\\Users\\mazzo\\OneDrive\\Documentos\\Marcelo\\dotnet_diome\\dev-week-Pottencial\\dev-week-Pottencial.csproj",
         "projectName": "dev-week-Pottencial",
-        "projectPath": "c:\\Users\\mazzo\\OneDrive\\Documentos\\Marcelo\\dotnet_diome\\dev-week-Pottencial\\dev-week-Pottencial.csproj",
+        "projectPath": "C:\\Users\\mazzo\\OneDrive\\Documentos\\Marcelo\\dotnet_diome\\dev-week-Pottencial\\dev-week-Pottencial.csproj",
         "packagesPath": "C:\\Users\\mazzo\\.nuget\\packages\\",
-        "outputPath": "c:\\Users\\mazzo\\OneDrive\\Documentos\\Marcelo\\dotnet_diome\\dev-week-Pottencial\\obj\\",
+        "outputPath": "C:\\Users\\mazzo\\OneDrive\\Documentos\\Marcelo\\dotnet_diome\\dev-week-Pottencial\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\mazzo\\AppData\\Roaming\\NuGet\\NuGet.Config"

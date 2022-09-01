@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "D2B/JNjYDOZgdjYYZe1rBnQNb7xqQI/XZEfWSzYTHb4cyVzvj3rkFThHvtvNXtlai/hT1bvq0XctZY+LzgtAkw==",
+  "dgSpecHash": "bjFqLrwpRIx8VAasLX6UI6V3EnvqHi+W8obbkpbMpVXXgSfymafAgFnbRaPQNgzsbeXe0gNN0LIWIiW3SbcV1Q==",
   "success": true,
-  "projectFilePath": "c:\\Users\\mazzo\\OneDrive\\Documentos\\Marcelo\\dotnet_diome\\dev-week-Pottencial\\dev-week-Pottencial.csproj",
+  "projectFilePath": "C:\\Users\\mazzo\\OneDrive\\Documentos\\Marcelo\\dotnet_diome\\dev-week-Pottencial\\dev-week-Pottencial.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\mazzo\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\mazzo\\.nuget\\packages\\microsoft.entityframeworkcore\\6.0.8\\microsoft.entityframeworkcore.6.0.8.nupkg.sha512",
